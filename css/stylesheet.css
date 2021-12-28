@@ -1,0 +1,265 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; 
+}
+/*header precisa ser  flex para colocar as coisas no menu e o nav*/ 
+header{
+    background: #d64243;
+    display: flex;  
+    height: 100px;
+    /* Colocar o logo de um lado e o texto do outro */
+    justify-content: space- between;
+/* Colocar centralizados na horizontal no centro */
+    align-items: center;
+}
+
+.branco{
+    background: white;
+    height: 80px;
+    width: 200px;
+    margin: 0 0 0 15%;
+    border: 4px solid #fab22c;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+}
+
+.branco img{    
+    max-width: auto;
+    max-height: auto;
+}
+
+header img{
+    width: 200px;
+}
+
+nav ul{
+    display: flex;
+       /* Tirar os pontos da lista */
+}
+
+nav a{
+    display: inline;
+    text-decoration: none;
+    margin: 30px;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: 1.7vh;   
+}
+
+nav a:hover{
+    color: #fab22c;
+}
+
+.carrosel{
+    background-image: url("../imagem/capa.jpg");
+    background-size: cover;
+    background-color: #2e3238;
+    text-align: center;
+    padding: 0,9%;
+    background-repeat: no-repeat;
+}
+
+.carrosel_transparency{
+    padding: 6%;
+    background-color: #43474daf;
+}
+.carrosel h1{
+    font-style: oblique;
+    font-size: 8vh;
+    color: #f0eff5;
+}
+
+main{
+    text-align: center;
+}
+
+.titulo h2{
+    padding: 70px 0px 0px 0px;
+    font-size: 50px;
+    color: #c6c6c6;
+}
+
+.container_vermelho{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.linha_vermelha{
+    margin-top: 20px;
+    background: #cc1011;
+    padding: 5px;
+    width: 100px;
+}
+
+.container_produto{
+    margin: 0px auto;
+}
+
+.produtos{
+    background: #f0f2f3;
+    width: 300px;
+    height: 300px;
+    padding: 0 0 15px 0;
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 10px;
+}
+
+.imagem_produto{
+    width: 300px;
+    height: 240px;
+}
+
+.produtos h3{
+    margin: 15px 0 10px 0;
+}
+
+.produtos a{
+    color: #8b0000;
+}
+
+.secao_1{
+    padding-bottom: 10vh;
+}
+.secao_2{
+    padding-bottom: 10vh;
+    background: #f7f7f7;
+}
+
+.secao_3{
+    padding-bottom: 10vh;
+}
+
+.secao_5{
+    padding-bottom: 10vh; 
+}
+.secao_2 .produtos{
+    background-color: #ffffff;
+}
+
+.co3{
+    display: inline-block;
+    margin: 0 0 75px 0;
+}
+
+.secao_3 img{
+    width: 50vh;
+    margin: 90px 20px 0 0;
+}
+
+.secao_3 .titulo{
+    display: inline-block;
+    vertical-align: top;    
+    margin: 10px 0 0 0;
+    padding: 0 0 0 0;
+    text-align: justify;
+    
+}
+
+.secao_3 .container_vermelho{
+    margin: 0 0 0 0;
+    justify-content: left;
+}
+
+.text_img{
+    margin: 50px 0 0 0;
+    max-width: 400px;
+}
+
+.secao_4{
+    background: #c6c6c6;
+}
+
+.li_secao4{
+    display: inline-block;
+    margin: 4vh 10px;
+    padding: 0 4%;
+    height: 20vh;
+    vertical-align: top;
+    border-right: 3px solid white;
+}
+
+#execao{
+    display: inline;
+    display: inline-block;
+    margin: 4vh 10px;
+    padding: 0vh 2vh;
+    height: 15vh;
+}
+
+.secao_4 h3{
+    font-size: 2vh;
+    margin: 50px 0 0 0;
+    color: #3d5984;
+}
+
+#execao h3{
+    margin: 50px 0 0 0;
+}
+
+.secao_4 h2{
+    color: #ffffff;
+    font-size: 4vh;
+}
+
+.secao_5 ul{
+    display: flex;
+    justify-content: center;
+}
+
+.secao_5 img{
+    width: 20vh;
+    height: 20vh;
+    margin: 0 40px;
+}
+
+.secao_6{
+    background:  #f7f7f7;;
+}
+
+iframe{
+    width: 80%;
+    height: 40vh;
+    background-color: #8b0000;
+    margin: 0 auto 60px auto;
+}
+
+.info_empresa{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.dados_empresa{
+    margin: 0 auto;
+    width: 40%;
+}
+
+.dados_empresa p{
+    margin: 30px 0 30px 0;
+    text-align: center;
+}
+
+footer{
+    background: #8b0000;
+    padding: 3vh;
+    text-align: center;
+}
+
+form input, form textarea{
+    display: block;
+    margin: 10px auto;
+    width: 50vh;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+iframe{
+
+}
